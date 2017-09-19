@@ -114,3 +114,21 @@ aside article{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.btn_submit {
+    background: url('images/br_btn.jpg');
+}
+
+ul {
+    list-style: square url("images/puce_feuille.png");
+}
+
+.liste_un {
+    display: inline-block;
+    color: green;
+}
+
+.liste_deux {
+    display: inline-block;
+    color: green;
+}
