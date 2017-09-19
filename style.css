@@ -8,7 +8,7 @@ header {
     background-size: auto, auto;
     background-repeat: no-repeat;
     width: 100%;
-    height: 68vh;
+    height: 83vh;
     margin-top: 0;
     margin-bottom: 0;
     margin: auto;
@@ -31,23 +31,26 @@ header nav a {
 aside {
     background: url("images/bg_news.jpg");
     background-repeat: no-repeat;
+    height: 100%;
     margin-left: 150px;
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     display: inline-block;
+    vertical-align: top;
+    width: 44%;
 }
 
 
-aside article{
+article{
     vertical-align: middle;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 7vh;
-    width: 80%;
+    height: 8vh;
+    width: 100%;
 
 }
 
@@ -90,13 +93,14 @@ aside article{
 }
 
 .section_deux{
+
     display: inline-block;
     vertical-align: left;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 7vh;
+    height: 10vh;
     width: 25%;
 }
 
@@ -105,7 +109,10 @@ aside article{
 }
 
 .section_deux_deux {
-
+    background: url("images/pot_newsletter.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: right;
 }
 
 .article_haut{
@@ -131,4 +138,8 @@ ul {
 .liste_deux {
     display: inline-block;
     color: green;
+}
+
+.body_suite {
+    margin-top: 30px;
 }
